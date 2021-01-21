@@ -11,6 +11,9 @@ updatefoodstock(foodstock){
 getfoodstock(){
     return this.foodstock;
 }
+    getFedTime(lastFed){
+     this.lastFed=lastFed;
+   }
 
   deductFood(){
      if(this.foodstock>0){
